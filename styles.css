@@ -1,0 +1,94 @@
+:root {
+  --white: #EBEBEB;
+  -green: #266969;
+  --text: #00000098;
+  --black: #0B090B;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /*border: 1px solid red;*/
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  display: grid;
+  place-items: center;  /*centers #phone both horizontally and vertically */
+}
+
+h1 {
+  margin-bottom: -80px;
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+#phone {
+  display: grid;
+  grid-gap: 10px;
+  padding: 30px;
+  background-color: var(--black);
+  border: 1px solid;
+  border-radius: 8px;
+  height: 500px;
+  width: 300px;
+}
+
+#screen {
+  background-color: var(--white);
+  margin-top: 10px;
+  height: 380px;
+  display: grid;
+  justify-content: center;
+}
+
+#circle {
+  width: 15px;
+  height: 15px;            
+  background-color: var(--white);
+  border-radius: 50%;
+  margin: -8px auto;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  height: 40px;
+  gap: 10px;  
+}
+
+#user-input{                    
+height: 45px;
+margin-top: -160px;
+}
+
+#check-btn {
+  width: 45%;
+  border-radius: 8px;
+  height: 30px;
+}
+
+#clear-btn {
+  width: 45%;
+  border-radius: 8px;
+  height: 30px;
+}
+
+#results-div {
+  margin-top: -20vh;
+  border: 1px solid var(--black);
+  padding: 5px;
+  width: 300px;
+  height: 30px;
+  text-align: center;
+}
