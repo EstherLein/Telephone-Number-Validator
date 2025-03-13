@@ -9,3 +9,5 @@ A simple web app that validates US phone numbers using JavaScript and regular ex
   **-Clear Functionality:** Resets input and results
   
   **-Responsive Design:** Styled for a clean and mobile-friendly look
+
+ #### Check out the project here: [Live Demo](https://estherlein.github.io/Tribute-Page/)
